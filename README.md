@@ -73,7 +73,7 @@ mvn archetype:generate \
 -DartifactId=aula_inatel
 
 Executar um teste a partir do Runner ou suíte:
-mvn test –Dtest=StarWarsRunner
+mvn test –Dtest=cardsRunner
 
 
 Executar testes separados por tags:

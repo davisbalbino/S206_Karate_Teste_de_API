@@ -60,7 +60,7 @@ mvn --version
 A resposta de cada comando deve ser a versão instalada.
 
 
-### Comandos úteis Karate (utilize a aula para enteder o que cada comando faz):
+### Comandos úteis Karate:
 
 ```
 Criar estrutura inicial Karate:

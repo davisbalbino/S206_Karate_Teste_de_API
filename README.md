@@ -75,6 +75,7 @@ mvn archetype:generate \
 Executar um teste a partir do Runner ou suíte:
 mvn test –Dtest=StarWarsRunner
 
+
 Executar testes separados por tags:
 mvn test -Dkarate.options="--tags @tag”
 
@@ -84,3 +85,8 @@ mvn test -Dkarate.options="--tags ~@tag"
 Todas as tags podem ser configuradas na classe da suíte de testes. (InatelTest.Java)
 
 ```
+
+### O Relatório é possível achar em:
+S206Karate/target/karate-reports/karate-summary.html
+
+

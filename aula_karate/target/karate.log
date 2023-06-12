@@ -1,0 +1,59 @@
+17:29:32.065 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:29:34.377 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:29:34.795 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people/1/
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:29:35.506 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 1014 milliseconds for url: https://swapi.dev/api/people/1/
+17:29:35.508 [main] ERROR com.intuit.karate - classpath:aula_inatel/starWars/starWars.feature:5
+When method get
+http call failed after 1014 milliseconds for url: https://swapi.dev/api/people/1/
+classpath:aula_inatel/starWars/starWars.feature:5
+17:36:25.587 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:36:26.715 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:36:27.021 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people/1/
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:36:27.739 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 967 milliseconds for url: https://swapi.dev/api/people/1/
+17:36:27.740 [main] ERROR com.intuit.karate - classpath:aula_inatel/starWars/starWars.feature:5
+When method get
+http call failed after 967 milliseconds for url: https://swapi.dev/api/people/1/
+classpath:aula_inatel/starWars/starWars.feature:5
+17:52:11.371 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:52:12.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:52:12.800 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people/1/
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:52:13.495 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 905 milliseconds for url: https://swapi.dev/api/people/1/
+17:52:13.496 [main] ERROR com.intuit.karate - classpath:aula_inatel/starWars/starWars.feature:5
+When method get
+http call failed after 905 milliseconds for url: https://swapi.dev/api/people/1/
+classpath:aula_inatel/starWars/starWars.feature:5
+17:52:13.530 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:52:13.534 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/api/people/1/1234
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/20.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:52:13.988 [main] ERROR com.intuit.karate - javax.net.ssl.SSLHandshakeException: PKIX path validation failed: java.security.cert.CertPathValidatorException: validity check failed, http call failed after 455 milliseconds for url: https://swapi.dev/api/people/1/1234
+17:52:13.989 [main] ERROR com.intuit.karate - classpath:aula_inatel/starWars/starWars.feature:10
+When method get
+http call failed after 455 milliseconds for url: https://swapi.dev/api/people/1/1234
+classpath:aula_inatel/starWars/starWars.feature:10

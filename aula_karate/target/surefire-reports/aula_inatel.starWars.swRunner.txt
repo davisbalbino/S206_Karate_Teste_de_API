@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.starWars.swRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 3.899 s <<< FAILURE! - in aula_inatel.starWars.swRunner
+testStarWars[1][1]  Time elapsed: 2.097 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+http call failed after 905 milliseconds for url: https://swapi.dev/api/people/1/
+classpath:aula_inatel/starWars/starWars.feature:5
+
+testStarWars[1][2]  Time elapsed: 1.163 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+http call failed after 455 milliseconds for url: https://swapi.dev/api/people/1/1234
+classpath:aula_inatel/starWars/starWars.feature:10
+
